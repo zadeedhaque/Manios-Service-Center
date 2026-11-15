@@ -1,0 +1,152 @@
+{
+  "business_name": {
+    "value": "Manios Service Centre",
+    "google_maps_listing_name": "Manios Automotive Service Centre",
+    "source_url": "https://reviews.birdeye.com/manios-service-centre-167016974685686",
+    "secondary_source_url": "https://www.google.com/maps/search/?api=1&query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051"
+  },
+  "status": {
+    "value": "Open / Operating",
+    "source_url": "https://www.google.com/maps/search/?api=1&query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051"
+  },
+  "category": {
+    "value": [
+      "Mechanic",
+      "Car repair and maintenance service",
+      "Auto body parts supplier"
+    ],
+    "source_url": "https://www.google.com/maps/search/?api=1&query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051"
+  },
+  "address": {
+    "street": "107 Peel St",
+    "suburb": "North Melbourne",
+    "state": "VIC",
+    "postcode": "3051",
+    "country": "Australia",
+    "full_address": "107 Peel St, North Melbourne VIC 3051",
+    "coordinates": {
+      "latitude": -37.80548,
+      "longitude": 144.95578
+    },
+    "source_url": "https://www.google.com/maps/search/?api=1&query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051"
+  },
+  "phone": {
+    "value": "(03) 9328 1545",
+    "tel_href": "+61393281545",
+    "note": "Listed on Birdeye profile; not currently displayed on the Google Maps listing.",
+    "source_url": "https://reviews.birdeye.com/manios-service-centre-167016974685686"
+  },
+  "opening_hours": {
+    "days": {
+      "Monday": "9:30 am – 6:00 pm",
+      "Tuesday": "9:30 am – 6:00 pm",
+      "Wednesday": "9:30 am – 6:00 pm",
+      "Thursday": "9:30 am – 6:00 pm",
+      "Friday": "9:30 am – 6:00 pm",
+      "Saturday": "10:00 am – 3:00 pm",
+      "Sunday": "Closed"
+    },
+    "source_url": "https://www.google.com/maps/search/?api=1&query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051",
+    "birdeye_discrepancy_note": {
+      "Monday_to_Friday": "9:00 am – 6:00 pm",
+      "Saturday_to_Sunday": "Closed",
+      "source_url": "https://reviews.birdeye.com/manios-service-centre-167016974685686"
+    }
+  },
+  "services": {
+    "merchant_description_verbatim": "Service all makes & model.\n\nRoadside assistance\nCBD Car service centre\nMercedes Benz\nBMW\nVolkswagen\nAudi\nToyota\nFord\nHolden\nHonda\n\nOdis reprogramming\nEcu Reprogramming\nCluster recalibration\nCar scanning\nEngine & transmission replacement\nMajor & minor service\nLogbook service\n$100 car service\nDiscount for taxi & rideshare vehicles\nMajor maintenance of vehicle",
+    "items": [
+      "Major & minor servicing (all makes and models)",
+      "Logbook servicing",
+      "Brake servicing & mechanical repairs",
+      "Engine & transmission replacement",
+      "ECU & ODIS reprogramming, car scanning & cluster recalibration",
+      "Roadside assistance",
+      "Air conditioning repair service"
+    ],
+    "makes_listed": [
+      "Mercedes-Benz",
+      "BMW",
+      "Volkswagen",
+      "Audi",
+      "Toyota",
+      "Ford",
+      "Holden",
+      "Honda"
+    ],
+    "source_url": "https://www.google.com/maps/search/?api=1&query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051",
+    "secondary_source_url": "https://reviews.birdeye.com/manios-service-centre-167016974685686"
+  },
+  "rating_and_reviews": {
+    "google_rating": 4.6,
+    "review_count": 9,
+    "rating_distribution": {
+      "5_star": 8,
+      "4_star": 0,
+      "3_star": 0,
+      "2_star": 0,
+      "1_star": 1
+    },
+    "source_url": "https://www.google.com/maps/search/?api=1&query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051",
+    "secondary_source_url": "https://reviews.birdeye.com/manios-service-centre-167016974685686"
+  },
+  "attributes": {
+    "wheelchair_access": {
+      "value": "Wheelchair-accessible entrance",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051"
+    }
+  },
+  "years_operating": {
+    "value": "Operating since at least 2016 (earliest Google review dated 10 years ago in June 2016; exact founding year not stated).",
+    "source_url": "https://www.google.com/maps/search/?api=1&query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051"
+  },
+  "reviews": [
+    {
+      "reviewer_first_name": "Shane",
+      "reviewer_full_name": "Shane",
+      "rating": 5,
+      "relative_date": "2 years ago",
+      "text": "Great,reliable and quick.serviced my brakes.good job, all-round.thank you.",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051"
+    },
+    {
+      "reviewer_first_name": "Lay",
+      "reviewer_full_name": "Lay Marques",
+      "rating": 5,
+      "relative_date": "4 years ago",
+      "text": "Exelent service, good communication and honest work.",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051"
+    },
+    {
+      "reviewer_first_name": "Anton",
+      "reviewer_full_name": "Anton Biskup",
+      "rating": 5,
+      "relative_date": "10 years ago",
+      "text": "great service both on the car and in person.\n\nprices were the best in the North Melbourne area.\n\nHighly recommended.",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051"
+    },
+    {
+      "reviewer_first_name": "Amjad",
+      "reviewer_full_name": "Amjad A",
+      "rating": 5,
+      "relative_date": "5 months ago",
+      "text": "Great service",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051"
+    },
+    {
+      "reviewer_first_name": "Essendon Freedom Bombers",
+      "reviewer_full_name": "Essendon Freedom Bombers",
+      "rating": 5,
+      "relative_date": "10 years ago",
+      "text": "Friendly,  honest and professional:)",
+      "source_url": "https://www.google.com/maps/search/?api=1&query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051"
+    }
+  ],
+  "not_found": [
+    "Parking attributes (not listed on Google Maps or Birdeye)",
+    "Payment types accepted (not listed on Google Maps or Birdeye)",
+    "Appointment vs walk-in policy (not listed on Google Maps or Birdeye)",
+    "Exact year established / how long operating (not explicitly stated; earliest review is 10 years old)",
+    "6th to 8th written reviews of 4+ stars (only 5 of the 8 five-star Google reviews include written text; the remaining 3 are star-only ratings without text)"
+  ]
+}
