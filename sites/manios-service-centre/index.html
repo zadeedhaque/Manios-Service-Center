@@ -2,68 +2,86 @@
 <html lang="en-AU">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="robots" content="noindex">
-  <meta name="description" content="Manios Service Centre at 107 Peel St, North Melbourne VIC 3051. Car servicing, logbook maintenance, brakes and mechanical repairs.">
+  <meta name="theme-color" content="#14171A">
   <title>Manios Service Centre | Car Servicing &amp; Repairs in North Melbourne</title>
+  <meta name="description" content="Manios Service Centre at 107 Peel St, North Melbourne VIC 3051. Car servicing, logbook maintenance, brakes and mechanical repairs. Call (03) 9328 1545.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2314171A'/%3E%3Crect x='9' y='9' width='14' height='14' rx='4' fill='%23F4A261'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <a class="skip" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="container header-inner">
-      <span class="site-name">Manios Service Centre</span>
-      <a href="tel:0393281545" class="btn btn-primary header-call">Call (03) 9328 1545</a>
+      <a href="#" class="brand">Manios Service Centre</a>
+      <nav class="nav" aria-label="Page sections">
+        <a href="#services">Services</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#hours">Hours</a>
+        <a href="#find-us">Find us</a>
+      </nav>
+      <a href="tel:+61393281545" class="btn btn-dark btn-sm" aria-label="Call (03) 9328 1545"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.12.37 2.33.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Call<span class="call-number"> (03) 9328 1545</span></a>
     </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-split">
-        <div class="hero-content">
-          <h1>Car servicing and repairs in North Melbourne</h1>
-          <p class="hero-sub">We look after all makes and models at our Peel Street workshop.</p>
-          <div class="hero-actions">
-            <a href="tel:0393281545" class="btn btn-primary">Call (03) 9328 1545</a>
-            <a href="https://www.google.com/maps/search/?api=1&amp;query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Get directions</a>
+  <main id="main">
+    <section class="hero hero--split" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>107 Peel St, North Melbourne</p>
+          <h1 id="hero-heading">Car servicing and repairs in North Melbourne</h1>
+          <p class="lead">We look after all makes and models at our Peel Street workshop.</p>
+          <div class="actions">
+            <a href="tel:+61393281545" class="btn btn-accent"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.12.37 2.33.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Call (03) 9328 1545</a>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051" target="_blank" rel="noopener noreferrer" class="btn btn-ghost"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>Get directions</a>
           </div>
+          <ul class="chips">
+            <li><a class="chip" href="https://www.google.com/maps/search/?api=1&amp;query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051" target="_blank" rel="noopener noreferrer"><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg>4.6 from 9 Google reviews</a></li>
+            <li class="chip">Open Monday to Saturday</li>
+            <li class="chip">All makes and models</li>
+          </ul>
         </div>
-        <div class="hero-accent-block">
-          <div class="img-placeholder ratio-16-9">
-            <span class="placeholder-label">images/hero.jpg</span>
-            <img src="images/hero.jpg" alt="Draft alt: Workshop bay and hoist at Manios Service Centre on Peel Street" loading="eager" onload="this.parentElement.classList.add('has-image')" onerror="this.style.display='none'">
-          </div>
+        <div class="hero-art">
+          <figure class="ph r-16-9">
+            <img src="images/hero.jpg" alt="Workshop bay and hoist at Manios Service Centre on Peel Street" width="1600" height="900" onload="this.parentElement.classList.add('has-image')" onerror="this.remove()">
+            <figcaption>images/hero.jpg</figcaption>
+          </figure>
         </div>
       </div>
     </section>
 
-    <section class="section" id="services">
+    <section class="section" id="services" aria-labelledby="services-heading">
       <div class="container">
-        <h2>Services</h2>
-        <ul class="services-grid">
-          <li class="service-item">
+        <div class="section-head">
+          <h2 id="services-heading">Services</h2>
+        </div>
+        <ul class="services">
+          <li class="service">
             <h3>Major &amp; Minor Servicing</h3>
             <p>Routine servicing for all makes and models, including European and local cars.</p>
           </li>
-          <li class="service-item">
+          <li class="service">
             <h3>Logbook Servicing</h3>
             <p>Scheduled maintenance completed to your vehicle's logbook specifications.</p>
           </li>
-          <li class="service-item">
+          <li class="service">
             <h3>Brakes &amp; Mechanical Repairs</h3>
             <p>Brake servicing and general mechanical repairs to keep your car safe on the road.</p>
           </li>
-          <li class="service-item">
+          <li class="service">
             <h3>Diagnostics &amp; Reprogramming</h3>
             <p>Fault scanning, ECU and ODIS reprogramming, and cluster recalibration.</p>
           </li>
-          <li class="service-item">
+          <li class="service">
             <h3>Engine &amp; Transmission</h3>
             <p>Engine and transmission replacement and heavy mechanical maintenance.</p>
           </li>
-          <li class="service-item">
+          <li class="service">
             <h3>Roadside Assistance &amp; Taxi Care</h3>
             <p>Roadside assistance and discounted servicing for taxi and rideshare drivers.</p>
           </li>
@@ -71,142 +89,136 @@
       </div>
     </section>
 
-    <section class="section section-dark" id="reviews">
+    <section class="section section--dark on-dark" id="reviews" aria-labelledby="reviews-heading">
       <div class="container">
-        <div class="reviews-header">
-          <h2>Reviews</h2>
-          <a href="https://www.google.com/maps/search/?api=1&amp;query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051" target="_blank" rel="noopener noreferrer" class="rating-link">4.6 out of 5 stars (9 Google reviews)</a>
+        <div class="section-head">
+          <h2 id="reviews-heading">Reviews</h2>
+          <a class="rating" href="https://www.google.com/maps/search/?api=1&amp;query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051" target="_blank" rel="noopener noreferrer"><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg><strong>4.6</strong> out of 5 from 9 Google reviews</a>
         </div>
-        <div class="reviews-grid">
-          <blockquote class="review-card">
-            <p>"Great,reliable and quick.serviced my brakes.good job, all-round.thank you."</p>
-            <footer>— Shane</footer>
-          </blockquote>
-          <blockquote class="review-card">
-            <p>"Exelent service, good communication and honest work."</p>
-            <footer>— Lay</footer>
-          </blockquote>
-          <blockquote class="review-card">
-            <p>"great service both on the car and in person. prices were the best in the North Melbourne area. Highly recommended."</p>
-            <footer>— Anton</footer>
-          </blockquote>
+        <div class="reviews">
+          <figure class="review">
+            <span class="stars" role="img" aria-label="5 out of 5 stars"><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg></span>
+            <blockquote>"Great,reliable and quick.serviced my brakes.good job, all-round.thank you."</blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">S</span>Shane</figcaption>
+          </figure>
+          <figure class="review">
+            <span class="stars" role="img" aria-label="5 out of 5 stars"><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg></span>
+            <blockquote>"Exelent service, good communication and honest work."</blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">L</span>Lay</figcaption>
+          </figure>
+          <figure class="review">
+            <span class="stars" role="img" aria-label="5 out of 5 stars"><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg><svg class="ico ico-star" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 17.3 18.2 21l-1.6-7 5.4-4.7-7.2-.6L12 2 9.2 8.7 2 9.3 7.4 14l-1.6 7z"/></svg></span>
+            <blockquote>"great service both on the car and in person. prices were the best in the North Melbourne area. Highly recommended."</blockquote>
+            <figcaption><span class="avatar" aria-hidden="true">A</span>Anton</figcaption>
+          </figure>
         </div>
       </div>
     </section>
 
-    <section class="section" id="hours">
-      <div class="container">
-        <div class="hours-team-grid">
-          <div class="hours-col">
-            <h2>Opening Hours</h2>
-            <table class="hours-table">
-              <tbody>
-                <tr>
-                  <th scope="row">Monday</th>
-                  <td>9:30 am – 6:00 pm</td>
-                </tr>
-                <tr>
-                  <th scope="row">Tuesday</th>
-                  <td>9:30 am – 6:00 pm</td>
-                </tr>
-                <tr>
-                  <th scope="row">Wednesday</th>
-                  <td>9:30 am – 6:00 pm</td>
-                </tr>
-                <tr>
-                  <th scope="row">Thursday</th>
-                  <td>9:30 am – 6:00 pm</td>
-                </tr>
-                <tr>
-                  <th scope="row">Friday</th>
-                  <td>9:30 am – 6:00 pm</td>
-                </tr>
-                <tr>
-                  <th scope="row">Saturday</th>
-                  <td>10:00 am – 3:00 pm</td>
-                </tr>
-                <tr>
-                  <th scope="row">Sunday</th>
-                  <td>Closed</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div class="team-col">
-            <div class="img-placeholder ratio-1-1">
-              <span class="placeholder-label">images/team.jpg</span>
-              <img src="images/team.jpg" alt="Draft alt: Mechanic at Manios Service Centre in North Melbourne" loading="lazy" onload="this.parentElement.classList.add('has-image')" onerror="this.style.display='none'">
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="gallery">
-      <div class="container">
-        <h2>Gallery</h2>
-        <div class="gallery-grid">
-          <div class="img-placeholder ratio-4-3">
-            <span class="placeholder-label">images/gallery-1.jpg</span>
-            <img src="images/gallery-1.jpg" alt="Draft alt: Exterior view of Manios Service Centre at 107 Peel Street" loading="lazy" onload="this.parentElement.classList.add('has-image')" onerror="this.style.display='none'">
-          </div>
-          <div class="img-placeholder ratio-4-3">
-            <span class="placeholder-label">images/gallery-2.jpg</span>
-            <img src="images/gallery-2.jpg" alt="Draft alt: Vehicle on service hoist inside the workshop" loading="lazy" onload="this.parentElement.classList.add('has-image')" onerror="this.style.display='none'">
-          </div>
-          <div class="img-placeholder ratio-4-3">
-            <span class="placeholder-label">images/gallery-3.jpg</span>
-            <img src="images/gallery-3.jpg" alt="Draft alt: Diagnostic scanning and engine maintenance tools" loading="lazy" onload="this.parentElement.classList.add('has-image')" onerror="this.style.display='none'">
-          </div>
-          <div class="img-placeholder ratio-4-3">
-            <span class="placeholder-label">images/gallery-4.jpg</span>
-            <img src="images/gallery-4.jpg" alt="Draft alt: Completed car service ready for pickup" loading="lazy" onload="this.parentElement.classList.add('has-image')" onerror="this.style.display='none'">
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="find-us">
-      <div class="container">
-        <h2>Find Us</h2>
-        <div class="find-us-grid">
-          <div class="find-us-details">
-            <p class="address-line">107 Peel St, North Melbourne VIC 3051</p>
-            <p class="access-note">Wheelchair-accessible entrance.</p>
-            <a href="https://www.google.com/maps/search/?api=1&amp;query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Get directions</a>
-          </div>
-          <div class="map-frame">
-            <iframe
-              title="Map showing Manios Service Centre at 107 Peel St, North Melbourne VIC 3051"
-              src="https://maps.google.com/maps?q=Manios+Service+Centre+107+Peel+St+North+Melbourne+VIC+3051&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="final-cta">
-      <div class="container final-cta-inner">
-        <h2>Book Your Car In</h2>
-        <a href="tel:0393281545" class="final-phone">(03) 9328 1545</a>
+    <section class="section" id="hours" aria-labelledby="hours-heading">
+      <div class="container split">
         <div>
-          <a href="tel:0393281545" class="btn btn-primary">Call (03) 9328 1545</a>
+          <h2 id="hours-heading">Opening hours</h2>
+          <table class="hours">
+            <caption class="sr-only">Opening hours for Manios Service Centre</caption>
+            <tbody>
+              <tr data-day="Monday"><th scope="row">Monday</th><td>9:30 am – 6:00 pm</td></tr>
+              <tr data-day="Tuesday"><th scope="row">Tuesday</th><td>9:30 am – 6:00 pm</td></tr>
+              <tr data-day="Wednesday"><th scope="row">Wednesday</th><td>9:30 am – 6:00 pm</td></tr>
+              <tr data-day="Thursday"><th scope="row">Thursday</th><td>9:30 am – 6:00 pm</td></tr>
+              <tr data-day="Friday"><th scope="row">Friday</th><td>9:30 am – 6:00 pm</td></tr>
+              <tr data-day="Saturday"><th scope="row">Saturday</th><td>10:00 am – 3:00 pm</td></tr>
+              <tr data-day="Sunday"><th scope="row">Sunday</th><td class="closed">Closed</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="team">
+          <figure class="ph r-1-1">
+            <img src="images/team.jpg" alt="Mechanic at Manios Service Centre in North Melbourne" width="800" height="800" loading="lazy" onload="this.parentElement.classList.add('has-image')" onerror="this.remove()">
+            <figcaption>images/team.jpg</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white" id="gallery" aria-labelledby="gallery-heading">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="gallery-heading">Gallery</h2>
+        </div>
+        <div class="gallery">
+          <figure class="ph r-4-3">
+            <img src="images/gallery-1.jpg" alt="Exterior view of Manios Service Centre at 107 Peel Street" width="800" height="600" loading="lazy" onload="this.parentElement.classList.add('has-image')" onerror="this.remove()">
+            <figcaption>images/gallery-1.jpg</figcaption>
+          </figure>
+          <figure class="ph r-4-3">
+            <img src="images/gallery-2.jpg" alt="Vehicle on service hoist inside the workshop" width="800" height="600" loading="lazy" onload="this.parentElement.classList.add('has-image')" onerror="this.remove()">
+            <figcaption>images/gallery-2.jpg</figcaption>
+          </figure>
+          <figure class="ph r-4-3">
+            <img src="images/gallery-3.jpg" alt="Diagnostic scanning and engine maintenance tools" width="800" height="600" loading="lazy" onload="this.parentElement.classList.add('has-image')" onerror="this.remove()">
+            <figcaption>images/gallery-3.jpg</figcaption>
+          </figure>
+          <figure class="ph r-4-3">
+            <img src="images/gallery-4.jpg" alt="Completed car service ready for pickup" width="800" height="600" loading="lazy" onload="this.parentElement.classList.add('has-image')" onerror="this.remove()">
+            <figcaption>images/gallery-4.jpg</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="find-us" aria-labelledby="find-heading">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="find-heading">Find us</h2>
+        </div>
+        <div class="find">
+          <div class="find-card">
+            <address>107 Peel St<br>North Melbourne VIC 3051</address>
+            <p>Wheelchair-accessible entrance.</p>
+            <a href="https://www.google.com/maps/search/?api=1&amp;query=Manios+Service+Centre+107+Peel+Street+North+Melbourne+VIC+3051" target="_blank" rel="noopener noreferrer" class="btn btn-dark"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>Get directions</a>
+          </div>
+          <div class="map">
+            <iframe title="Map showing Manios Service Centre at 107 Peel St, North Melbourne VIC 3051" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              src="https://www.google.com/maps?q=Manios+Service+Centre+107+Peel+St+North+Melbourne+VIC+3051&amp;z=16&amp;ie=UTF8&amp;output=embed"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" aria-labelledby="cta-heading">
+      <div class="container">
+        <div class="cta-card">
+          <h2 id="cta-heading">Book your car in</h2>
+          <p>Give us a call during opening hours.</p>
+          <a href="tel:+61393281545" class="cta-phone">(03) 9328 1545</a>
+          <a href="tel:+61393281545" class="btn btn-dark"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.12.37 2.33.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Call (03) 9328 1545</a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer on-dark">
     <div class="container footer-inner">
-      <p>Manios Service Centre — 107 Peel St, North Melbourne VIC 3051 — (03) 9328 1545</p>
+      <strong>Manios Service Centre</strong>
+      <p>107 Peel St, North Melbourne VIC 3051 · (03) 9328 1545</p>
       <p>Preview site designed by Zadeed Haque. Not yet affiliated with Manios Service Centre.</p>
     </div>
   </footer>
 
-  <div class="mobile-call-bar">
-    <a href="tel:0393281545" class="btn btn-primary mobile-call-btn">Call (03) 9328 1545</a>
+  <div class="call-bar on-dark">
+    <a href="tel:+61393281545" class="btn btn-accent"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.12.37 2.33.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Call (03) 9328 1545</a>
   </div>
+
+  <script>
+    (function () {
+      try {
+        var day = new Intl.DateTimeFormat('en-AU', { weekday: 'long', timeZone: 'Australia/Melbourne' }).format(new Date());
+        var row = document.querySelector('[data-day="' + day + '"]');
+        if (row) row.classList.add('is-today');
+      } catch (e) {}
+    })();
+  </script>
+  <noscript><style>.ph img { opacity: 1; }</style></noscript>
 </body>
 </html>
